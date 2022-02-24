@@ -15,5 +15,6 @@ int selectOp(List<int> list, int Function(List<int>) function) {
 }
 
 void main() {
+  print(selectOp([1, 2, 3], sumArray));
   print(selectOp([1, 2, 10], multiArray));
 }
